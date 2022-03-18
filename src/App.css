@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SurahText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
+  margin-left: 41%;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: right;
 }
-
-.App-link {
-  color: #61dafb;
+body {
+  background-color: rgba(46, 148, 46, 0.719);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.c1 {
+  background-color: rgba(255, 255, 255, 0.37);
+  border: 3px solid green;
+}
+.c1:hover {
+  background-color: green;
+  color: lightgreen;
+  border-radius: 2%;
+  transition: 0.9s;
+}
+blockquote {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
